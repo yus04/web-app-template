@@ -1,0 +1,48 @@
+.section {  
+    margin-bottom: 30px;  
+}  
+
+.section h2 {  
+    font-size: 1.5em;  
+    margin-bottom: 10px;  
+}  
+
+.endpoint {  
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 15px;  
+}  
+
+.endpoint span {  
+    margin-right: 10px;  
+}  
+
+.params input {  
+    margin-right: 10px;  
+    padding: 5px;  
+    border: 1px solid #0078d4;  
+    border-radius: 4px;  
+}  
+
+.endpoint input[type="text"] {  
+    flex-grow: 1;  
+    padding: 5px;  
+    border: 1px solid #0078d4;  
+    border-radius: 4px;  
+    margin-right: 10px;  
+}  
+
+.send-button {  
+    background: none;  
+    border: none;  
+    cursor: pointer;  
+}  
+
+.send-button .paper-plane {  
+    display: inline-block;  
+    width: 16px;  
+    height: 16px;  
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="black" d="M2.01 21L23 12 2.01 3v7l15 2-15 2z"/></svg>');  
+    background-size: contain;  
+    background-repeat: no-repeat;  
+}  
